@@ -1,0 +1,16 @@
+{
+  "name": "Cineapp",
+  "short_name": "Cineapp",
+  "icons": [
+    {
+      "src": "/img/movie.png",
+      "sizes": "192x192",
+      "type": "img/png"
+    }   
+  ],
+  "theme_color": "#141620",
+  "background_color": "#141620",
+  "description": "Um projeto simples de filmes e séries",
+  "start_url": "/",
+  "display": "fullscreen"  
+}
