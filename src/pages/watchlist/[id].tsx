@@ -34,7 +34,7 @@ export default function WatchlistComponent() {
     <Container>
       <title>Cineapp | Watchlist</title>
       <Content>
-        <h1>📄 Minha lista</h1>
+        <h1>📄 Empty list</h1>
         <section>
           {watchlist?.map((item) => {
             return (

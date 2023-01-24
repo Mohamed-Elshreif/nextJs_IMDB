@@ -29,7 +29,7 @@ export function Header() {
   useEffect(() => {
     setIsOpen(false);
   }, [asPath]);
-
+console.log(user?.avatar)
   function handleSubmit(event: FormEvent) {
     event.preventDefault();
 
@@ -93,7 +93,7 @@ export function Header() {
           <div>
             <p>{user.name}</p>
           </div>
-          <img src={user.avatar} alt={user.name} />
+          <img src={user?.avatar} alt={user.name} />
           <button className="login" onClick={() => logoutGoogle()}>
             Logout
           </button>
