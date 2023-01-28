@@ -18,7 +18,7 @@ export function Highlight({ movie, tv }: HighlightType) {
       <h2>🔥 Trend</h2>
       <Content>
         <Link href={`/movies/${movie.id}`}>
-          <a>
+          <a className='box'>
             <div className="item">
               <img
                 src={`https://image.tmdb.org/t/p/original/${movie.backdrop_path}`}
@@ -38,7 +38,7 @@ export function Highlight({ movie, tv }: HighlightType) {
           </a>
         </Link>
         <Link href={`/tv/${tv.id}`}>
-          <a>
+          <a className='box'>
             <div className="item">
               <img
                 src={`https://image.tmdb.org/t/p/original/${tv.backdrop_path}`}
