@@ -1,6 +1,6 @@
 
 ## 🖼 Images
-![cineapp](https://user-images.githubusercontent.com/70612836/128612355-0d875460-ef5b-4d52-bc85-377285d9edce.png)
+![movies](https://user-images.githubusercontent.com/70612836/128612355-0d875460-ef5b-4d52-bc85-377285d9edce.png)
 
 
 ## 🧠 To do

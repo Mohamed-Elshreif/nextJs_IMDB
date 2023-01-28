@@ -9,8 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@typescript-eslint/scope-manager": "^5.49.0",
     "axios": "^0.21.1",
     "date-fns": "^2.23.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.1",
     "firebase": "^8.8.1",
     "icons": "^1.0.0",
     "luxon": "^2.0.1",
