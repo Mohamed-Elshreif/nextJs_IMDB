@@ -20,9 +20,7 @@ export const Content = styled.div`
 
   .item {
     display: flex;
-    width: 47.1vw;
     flex-direction: column;
-
     @media (max-width: 1024px) {
       width: 100%;
     }
