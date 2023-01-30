@@ -10,16 +10,18 @@ export const Container = styled.div`
 export const Content = styled.div`
   display: flex;
   max-width: 98vw;
-
+  .box{
+    width: 50%;
+  }
   @media (max-width: 1024px) {
     flex-direction: column;
     gap: 2rem;
     padding-right: 2rem;
     margin-bottom: 2rem;
+    .box{
+      width: 100%;
+    }
   }
-.box{
-  width: 50%;
-}
   .item {
     display: flex;
     flex-direction: column;
